@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Classic",
+      "borrowed": false,
+      "image": "images/gatsby.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "borrowed": true,
+      "image": "images/1984.jpg"
+    },
+    
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "borrowed": ["2023-09-10"]
+    },
+    {
+      "id": 2,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "category": "History",
+      "borrowed": ["2024-01-15", "2024-03-01"]
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "borrowed": []
+    }
+  ]
+  

@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  color: #fff; /* Keep text readable */
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/library-bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -5;
+  filter: brightness(0.4); /* Dims the image */
+}
+
+#book-list, h1, input, select {
+  position: relative;
+  z-index: 99; /* Ensures content appears above background */
+}
+
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .book-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
